@@ -1,0 +1,43 @@
+# Clojure
+### Files
+- main.clj
+    - Contains the function calls and displaying of results
+    - Can be run using repl to test
+- graph.clj
+    - Contains the graph functions
+    - Functions are as follows:
+        - **create-graph**
+            - Creates a random graph
+            - Accepts:
+                - _n_: # of nodes
+                - _s_: # of edges
+            - Returns:
+                - _graph_: adjacency list
+        - **shortest-path**
+            - Calculates the shortest path from start to end
+            - Accepts:
+                - _graph_: adjacency list
+                - _start_: the start node
+                - _end_: the start node
+            - Returns:
+                - _distance_: shortest distance from start to end
+                - _path_: path from start to end
+        - **eccentricity**
+            - Gets the greatest distance of a node to any other connected nodes
+            - Accepts:
+                - _graph_: adjacency list
+                - _node_: the start node
+            - Returns:
+                - _max-distance_: the greatest distance
+        - **radius**
+            - Gets the minimum eccentricity of any node
+            - Accepts:
+                - _graph_: adjacency list
+            - Returns:
+                - _min_: the minimum eccentricity
+        - **diameter**
+            - Gets the maximum eccentricity of any node
+            - Accepts:
+                - _graph_: adjacency list
+            - Returns:
+                - _min_: the maximum eccentricity
