@@ -6,6 +6,12 @@
     - Run in command line:
         - Syntax: ```php main.php -N {#} -S {#}```
         - Sample: ```php main.php -N 4 -S 4```
+    - Running the command outputs the following:
+        - Graph
+        - Shortest Path (with random start and end nodes)
+        - Eccentricities (of all nodes)
+        - Radius
+        - Diameter
 - graph_model.php
     - A class that contains the graph functions
     - Functions are as follows:
